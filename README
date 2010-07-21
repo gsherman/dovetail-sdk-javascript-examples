@@ -1,0 +1,18 @@
+A collection of Javascript scripts for use with a Dovetail/Clarify environment.
+
+These can be run from a DOS command prompt using cscript.exe, 
+which is a command-line interpreter for Javascript and VBScript that ships with Windows.
+
+log_case_note.js
+	An example script for logging a note to a case using an API toolkit.
+
+log_case_note.bat
+	A simple wrapper for invoking the log_case_note script using cscript.exe
+	
+fc.env
+	Configuration information, including database connection information.
+
+logging.config
+	log4net configuration file. Bes sure to modify the File parameter, which defines the path/name of the logfile.
+
+		
