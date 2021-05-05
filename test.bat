@@ -1,0 +1,1 @@
+cscript //e:jscript test.js 
